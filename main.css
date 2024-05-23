@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf5ff;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #56a5eb;
+}
+
+a {
+    text-decoration: none;
+}
+
+#play {
+    padding: 10px 60px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #56a5eb;
+    background-color: white;
+    border: 0.5px solid #56a5eb;
+    cursor: pointer;
+}
